@@ -39,7 +39,7 @@ $ npm install -g @vue/cli@3.7.0
 ```bash
 $ cd project_test1
 ```
-3. within "flask-vue-crud", initialize a new Vue project called client:
+3. within "project-test1", initialize a new Vue project called client:
 ```bash
 $ vue create client
 ```
@@ -71,7 +71,7 @@ Vue CLI v3.7.0
 ? Save this as a preset for future projects? (y/N) No
 ```
 4. Delete or replace following files:<br>
-    a. In _client_, remove _views_ folder.<br>
+    a. In _client_/_src_, remove _views_ folder.<br>
     b. In _client_/_src_, replace _App.vue_, _main.js_ and _router.js_ with the same-name file I provide.<br>
     c. In _client_/_src_/_components_, delete _HelloWorld.vue_. Copy my _csv_list.vue_ and _select_list.vue_ into the folder.
 5.Back to terminal, cd into the client file:
@@ -82,6 +82,7 @@ $ cd client
 ```bash
 $ npm install axios@0.18.0 --save
 $ npm install bootstrap@4.3.1 --save
+$ npm install --save bootstrap-vue
 ```
 7. Run the project(make sure the Flask is running in another terminal)
 ```bash
