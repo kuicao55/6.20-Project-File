@@ -1,5 +1,5 @@
 # 6.20-Project-File
-Details are shown in the gist<br>
+Shown how to initialize<br>
 ## Pre-prepare if using:<br>
 ### flask setup
 1. Begin by creating a new project directory:
